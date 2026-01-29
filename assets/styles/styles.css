@@ -1,0 +1,23 @@
+body {
+    background-color: #bfbba8;
+}
+
+header {
+    background-color: #bfb89b;
+    border: 1px solid black;
+    padding: 10px;
+    min-height: 15vh;
+}
+
+main {
+    background-color: #bfb89b;
+    border: 1px solid black;
+    padding: 10px;
+    min-height: 70vh;
+}
+footer {
+    background-color: #bfb89b;
+    border: 1px solid black;
+    padding: 10px;
+    min-height: 10vh;
+}
