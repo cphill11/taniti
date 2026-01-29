@@ -1,8 +1,14 @@
+:root {
+   background-color: #759ea1;
+}
 body {
     background-color: #bfbba8;
 }
 
 header {
+    background-image: url("../images/beach-screenshot.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;     /* L & H */
     background-color: #bfb89b;
     border: 1px solid black;
     padding: 10px;
@@ -10,14 +16,16 @@ header {
 }
 
 main {
-    background-color: #bfb89b;
+    background-color: #9ab1b3;
     border: 1px solid black;
     padding: 10px;
     min-height: 70vh;
 }
 footer {
+    /* display: flex; */
     background-color: #bfb89b;
     border: 1px solid black;
     padding: 10px;
     min-height: 10vh;
+    justify-content: center;
 }
