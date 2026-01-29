@@ -1,12 +1,12 @@
 :root {
-   background-color: #759ea1;
+   background-color: #dbd9ce;
 }
 body {
     background-color: #bfbba8;
 }
 
 header {
-    background-image: url("../images/beach-screenshot.png");
+    background-image: url("../images/placeholder-image.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;     /* L & H */
     background-color: #bfb89b;
@@ -14,6 +14,34 @@ header {
     padding: 10px;
     min-height: 15vh;
 }
+
+.flex-container {
+    display: flex;
+    width: auto;
+    position: sticky;
+    justify-content: space-evenly;
+    z-index: 9;
+  }
+
+  .left-header {
+    display: flex;
+    border: 2px solid black;
+    margin-right: 80vh;
+    margin-top: 3vh;
+    width: 10vh;
+    max-height: 6vh;
+    justify-content: center;
+  }
+
+  .right-header {
+    display:flex;
+    border: 2px solid black;
+    margin-top: 3vh;
+    background-color: #dbd9ce;
+    width: 10vh;
+    max-height: 5vh;
+    justify-content: center;
+  }
 
 main {
     background-color: #9ab1b3;
