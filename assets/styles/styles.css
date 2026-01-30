@@ -6,7 +6,6 @@ body {
 }
 
 header {
-    background-image: url("../images/placeholder-image.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;     /* L & H */
     background-color: #bfb89b;
@@ -22,6 +21,7 @@ header {
     justify-content: space-evenly;
     z-index: 9;
   }
+
 
   .left-header {
     display: flex;
@@ -44,16 +44,70 @@ header {
   }
 
 main {
+    /* display: flex; */
+
     background-color: #9ab1b3;
+    /* justify-content: center; */
     border: 1px solid black;
     padding: 10px;
     min-height: 70vh;
 }
+
+main div a img {
+  
+    max-width: 40%;
+    border: 20px solid blue;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    margin: 20px blue;
+}
+
+.grid-container main div a img {
+    width: 100%;
+    height: auto;    
+}
+
 footer {
-    /* display: flex; */
+    display: flex;
+    justify-content: center;
     background-color: #bfb89b;
     border: 1px solid black;
     padding: 10px;
     min-height: 10vh;
     justify-content: center;
 }
+
+
+footer div {
+    text-align: center;
+  }
+  /* back to top button */
+
+/* back to top button */
+#myBtn {
+    /* Hidden by default when use 'display:none;'*/
+    /* display:none; */
+    position: fixed;
+    bottom: 0.5em;
+    right: 20em;
+    left: 20em;
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    /* background-color: red;  */
+    background-image: linear-gradient(#162f38, #6d8a94, #b4c6cc,#FFFFF0);
+    color: black;
+    font-weight: bold; 
+    cursor: pointer; 
+    padding: 8px; 
+    border-radius: 15px; 
+    font-size: 17px; 
+  }
+  
+  #myBtn:hover {
+    background-color: #4d7887;
+    font-weight: bold;
+  }
