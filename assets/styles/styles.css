@@ -101,7 +101,7 @@ footer div {
 /* back to top button */
 #myBtn {
     /* Hidden by default when use 'display:none;'*/
-    /* display:none; */
+    display:none;
     position: fixed;
     bottom: 0.5em;
     right: 20em;
