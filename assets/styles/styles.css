@@ -25,7 +25,7 @@ header {
 
   .left-header {
     display: flex;
-    border: 2px solid black;
+ 
     margin-right: 80vh;
     margin-top: 3vh;
     width: 10vh;
@@ -34,6 +34,17 @@ header {
   }
 
   .right-header {
+    display:flex;
+    border: 2px solid black;
+    margin-top: 3vh;
+    margin-left: 20vh;
+    background-color: #dbd9ce;
+    width: 10vh;
+    max-height: 5vh;
+    justify-content: center;
+  }
+  
+  .far-right-header {
     display:flex;
     border: 2px solid black;
     margin-top: 3vh;
