@@ -83,27 +83,7 @@ aside {
   border-left: 10px solid black;
 }
 
-.gallery {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
 
-.row {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
-}
-
-.row-3 {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
 
 section {
   max-width: 80vh;
