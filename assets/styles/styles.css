@@ -104,7 +104,7 @@ footer {
     background-color: #bfb89b;
     border: 1px solid black;
     padding: 10px;
-    min-height: 10vh;
+    min-height: 20vh;
     justify-content: center;
 }
 
@@ -112,6 +112,22 @@ footer {
 footer div {
     text-align: center;
   }
+
+.partners {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: 25px solid black; */
+}
+
+.partners a {
+  margin-top: 0.5em;
+  margin-left: 2.5em;
+  margin-right: 2.5em;
+  margin-bottom: 3.5em;
+  padding: 20px;
+  border: 2px solid black;
+}
   /* back to top button */
 
 /* back to top button */
@@ -131,6 +147,7 @@ footer div {
     padding: 8px; 
     border-radius: 15px; 
     font-size: 17px; 
+    margin-top: 3.5em;
   }
   
   #myBtn:hover {
