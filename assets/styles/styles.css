@@ -53,6 +53,10 @@ header div h2 {
     width: 10vh;
     max-height: 5vh;
     justify-content: center;
+
+  }
+  .far-right-header p a {
+    color: #33312a;
   }
 
 .container {
@@ -78,10 +82,7 @@ section {
 .category {
   display: flex;
   flex-direction: row;
-  border-radius: 15px;
-  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  padding: 1em;
 }
 
 .category div ul li {
@@ -96,23 +97,54 @@ section {
 .category div h2 {
   margin: 0.5em;
   padding: 3em;
+  padding-right: 5em;
   
 }
 
-.category div h3 {
-  color: #204754;
-  font-size: 1.5em;
+.category div img {
+  width: 20em;
+  height: 10em;
+  /* padding-right: 2em;
+  padding-left: 2em; */
+  border-radius: 15px;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
 .category div p {
   padding-left: 1em;
   font-size: 1.25em;
+  font-weight: bold;
 }
 
 .category div ul li {
   padding-left: 1.5em;
+  margin-bottom: 0.1em;
+  margin-top: 0.1em;
+}
+.travel {
+  margin-bottom: 2.5em;
+}
+.hotel {
+  margin-top: 1.5em;
+}
+.left-image {
+  margin-right: 3.5em;
+}
+.right-image {
+  margin-left: 3.5em;
 }
 
+
+
+.mid-image, .first-image {
+  margin-bottom: 3em;
+}
+
+.final-image {
+  margin-top: 3em;
+}
 .subcategory-header {
   border-radius: 15px;
   -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
@@ -198,8 +230,8 @@ footer div {
 .affiliates img {
   width: 25em;
   height: 10em;
-  padding-right: 2em;
-  padding-left: 2em;
+  /* padding-right: 2em;
+  padding-left: 2em; */
   border-radius: 15px;
   -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
