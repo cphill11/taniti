@@ -69,10 +69,55 @@ main {
 }
 section {
   flex: 0 1 80%;
-  background-color: #b2b7bf;
-  color: white;
+  background-color: #ccc9c0;
+  color: #33312a;
   margin: 0.5%;
-  /* border-left: 10px solid black; */
+  max-width: 80vh;
+}
+
+.category {
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.category div ul li {
+  list-style-type: none;
+  margin-bottom: 0.5em;
+  color: #4d493f;
+  margin-right: 2em;
+  font-size: 1.25em;
+  margin-bottom: 2em;
+}
+
+.category div h2 {
+  margin: 0.5em;
+  padding: 3em;
+  
+}
+
+.category div h3 {
+  color: #204754;
+  font-size: 1.5em;
+}
+
+.category div p {
+  padding-left: 1em;
+  font-size: 1.25em;
+}
+
+.category div ul li {
+  padding-left: 1.5em;
+}
+
+.subcategory-header {
+  border-radius: 15px;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
 .subpage-container {
   display:flex;
@@ -114,14 +159,10 @@ aside {
   padding: 5px;
   padding-left: 15px;
   border-left: 10px solid black;
+  text-align: center;
   font-size: 1.25em;
 }
 
-
-
-section {
-  max-width: 80vh;
-}
 
 
 
@@ -129,7 +170,6 @@ footer {
     display: flex;
     justify-content: center;
     background-color: #d1c7a7;
-    /* border: 1px solid black; */
     padding: 10px;
     min-height: 20vh;
     justify-content: center;
@@ -180,7 +220,6 @@ footer div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* border: 25px solid black; */
 }
 
 .partners a {
@@ -189,14 +228,13 @@ footer div {
   margin-right: 2.5em;
   margin-bottom: 1.5em;
   padding: 25px;
-  
-  /* border: 2px solid black; */
+  color: #33312a;
+  font-weight: bold;
   border-radius: 15px;
   -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
-  /* back to top button */
 
 /* back to top button */
 #myBtn {
