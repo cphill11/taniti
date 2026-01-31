@@ -182,6 +182,23 @@ section {
   box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
+.faq-subsection {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+  justify-content: center;
+}
+
+.faq-subsection p {
+  font-size: 1.25em;
+  margin-left: 0.5em;
+  margin-right: 1.5em;
+  font-weight: bold;
+}
+
+.faq-subsection ul li {
+  list-style-type: none;
+}
 aside {
   flex: 0 1 20%;
   min-width: 300px;
