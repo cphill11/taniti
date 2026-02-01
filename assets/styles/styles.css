@@ -36,10 +36,10 @@ header div h2 {
 
   .right-header {
     display:flex;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-top: 3vh;
     margin-left: 25vh;
-    background-color: #dbd9ce;
+    /* background-color: #dbd9ce; */
     width: 10vh;
     max-height: 5vh;
     justify-content: center;
@@ -206,8 +206,14 @@ aside {
   color: white;
   margin: 0.5%;
   padding: 5px;
-  padding-left: 15px;
+  padding-top: 3em;
+  padding-left: 2em;
+  padding-right: 2em;
   border-left: 10px solid black;
+  border-radius: 15px;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   text-align: center;
   font-size: 1.25em;
 }
